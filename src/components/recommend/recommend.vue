@@ -55,7 +55,7 @@
     },
     activated() {
       setTimeout(() => {
-        this.$refs.slider && this.$refs.slider.refresh()
+        this.$refs.slider && this.$refs.slider.slider.refresh()
       }, 20)
     },
     methods: {
